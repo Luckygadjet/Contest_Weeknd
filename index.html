@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Your Website Name</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <form class="form-inline ml-auto">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="image1.jpg" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="image2.jpg" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="image3.jpg" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden
+      <div class="photo-gallery">
+        <div class="photo-gallery-item">
+          <img src="https://source.unsplash.com/random/400x400" alt="image1">
+        </div>
+        <div class="photo-gallery-item">
+          <img src="https://source.unsplash.com/random/400x400" alt="image2">
+        </div>
+        <div class="photo-gallery-item">
+          <img src="https://source.unsplash.com/random/400x400" alt="image3">
+        </div>
+        <div class="photo-gallery-item">
+          <img src="https://source.unsplash.com/random/400x400" alt="image4">
+        </div>
+        <div class="photo-gallery-item">
+          <img src="https://source.unsplash.com/random/400x400" alt="image5">
+        </div>
+        <div class="photo-gallery-item">
+          <img src="https://source.unsplash.com/random/400x400" alt="image6">
+        </div>
+        <div class="photo-gallery-item">
+          <img src="https://source.unsplash.com/random/400x400" alt="image7">
+        </div>
+        <div class="photo-gallery-item">
+          <img src="https://source.unsplash.com/random/400x400" alt="image8">
+        </div>
+        <div class="photo-gallery-item">
+          <img src="https://source.unsplash.com/random/400x400" alt="image9">
+        </div>
+      </div>
+      .photo-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        margin: 20px 0;
+      }
+      
+      .photo-gallery-item {
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .photo-gallery-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: transform 0.3s ease;
+      }
+      
+      .photo-gallery-item img:hover {
+        transform: scale(1.1);
+      }
+      This code will create a photo gallery with 3 rows and 3 columns using CSS Grid. The images will be displayed with a gap of 10px between each one, and they will maintain their aspect ratios while being responsive. The images will also have a hover effect where they will scale up by 10%.
+        
+</html>
