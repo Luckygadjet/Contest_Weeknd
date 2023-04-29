@@ -74,4 +74,64 @@
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden
+      <div class="photo-gallery">
+        <div class="photo-gallery-item">
+          <img src="https://source.unsplash.com/random/400x400" alt="image1">
+        </div>
+        <div class="photo-gallery-item">
+          <img src="https://source.unsplash.com/random/400x400" alt="image2">
+        </div>
+        <div class="photo-gallery-item">
+          <img src="https://source.unsplash.com/random/400x400" alt="image3">
+        </div>
+        <div class="photo-gallery-item">
+          <img src="https://source.unsplash.com/random/400x400" alt="image4">
+        </div>
+        <div class="photo-gallery-item">
+          <img src="https://source.unsplash.com/random/400x400" alt="image5">
+        </div>
+        <div class="photo-gallery-item">
+          <img src="https://source.unsplash.com/random/400x400" alt="image6">
+        </div>
+        <div class="photo-gallery-item">
+          <img src="https://source.unsplash.com/random/400x400" alt="image7">
+        </div>
+        <div class="photo-gallery-item">
+          <img src="https://source.unsplash.com/random/400x400" alt="image8">
+        </div>
+        <div class="photo-gallery-item">
+          <img src="https://source.unsplash.com/random/400x400" alt="image9">
+        </div>
+      </div>
+      .photo-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        margin: 20px 0;
+      }
+      
+      .photo-gallery-item {
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .photo-gallery-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: transform 0.3s ease;
+      }
+      
+      .photo-gallery-item img:hover {
+        transform: scale(1.1);
+      }
+      This code will create a photo gallery with 3 rows and 3 columns using CSS Grid. The images will be displayed with a gap of 10px between each one, and they will maintain their aspect ratios while being responsive. The images will also have a hover effect where they will scale up by 10%.
+      
+      
+      
+      
+      
+      
+      
 </html>
